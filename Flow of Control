@@ -1,0 +1,98 @@
+// Part1_Flow_of_control.cpp : Defines the entry point for the console application.
+//
+
+//#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+
+	//Demo of if statement
+	int i;
+	int j;
+
+	cout << "Enter the first number " << endl;
+	cin >> i;
+
+	cout << "Enter the second number " << endl;
+	cin >> j;
+
+	if (i > j)
+	{
+		cout << "The first number is greater than the second number" << endl;
+	}
+	else if (i == j)
+	{
+		cout << "The first number is equal to the second number" << endl;
+	}
+	else
+	{
+		cout << "The first number is smaller than the second number" << endl;
+	}
+	//Demo of for statement
+
+	/* for (int i = 1; i < 10; i = i + 1)
+	{
+	cout << i << endl;
+
+	}*/
+
+	//Demo of while statement
+	/*bool flag = true;
+	int number_to_guess = 5;
+	cout << "Guess the number from 1 to 9" << endl;
+	while(flag)
+	{
+	cout << "Enter the number" << endl;
+	cin >> i;
+
+	if (i > number_to_guess)
+	{
+	cout << "Your number is greater that the number to guess" << endl;
+	}
+	else if (i < number_to_guess)
+	{
+	cout << "Your number is smaller that the number to guess" << endl;
+	}
+	else
+	{
+	cout << "Well done!!" << endl;
+	cout << "The correct number is " << i <<endl;
+	flag = false;
+	}
+	};*/
+
+	//Demo of switch and break words
+
+	/*cout << "Enter your number" << endl;
+
+	cin >> i;
+
+	switch (i)
+	{
+	case 1:
+	cout << "you have entered 1" << endl;
+	break;
+
+	case 2:
+	cout << "you have entered 2" << endl;
+	case 3:
+	cout << "you have entered 3" << endl;
+	break;
+	default:
+	cout << "you have entered the number different from 1-3" << endl;
+	} */
+
+	//Demo of immediate if
+	/* cout << "Enter the number " << endl;
+	cin >> i;
+
+	string result = i > 0 ? "positive" : "non-positive";
+
+	cout << result << endl; */
+	system("pause");
+	return 0;
+}
